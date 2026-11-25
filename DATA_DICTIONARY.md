@@ -65,15 +65,16 @@ Monthly exchange rates: one rate per currency per month.
 
 ## Business definitions
 
-- **ARR on a date** is the sum, over recurring lines in service on that date, of
-  `quantity x annual_unit_price x (1 - discount_pct)`, converted to USD.
-  One-time products are not ARR.
-- **Currency conversion:** use the rate for the month in which the line starts,
-  so a line's USD value does not change over its life.
-- **Renewals:** when a renewal line starts, the line it renews stops counting.
-- **Customers:** internal and test accounts are not customers and are excluded
-  from all metrics.
-- **NRR** for the 12 months ending on date D: take the accounts with ARR above
-  zero 12 months before D. NRR = their total ARR on D divided by their total ARR
-  12 months before D. **GRR** is the same, but each account's ARR on D is capped
-  at its starting ARR (it counts churn and downgrades, not growth).
+- ARR on a date: for each recurring line in service on that date, take
+  `quantity x annual_unit_price x (1 - discount_pct)`, convert to USD and add
+  them up. One-time products are not ARR.
+- Currency conversion: use the rate for the month the line starts, so a line's
+  USD value stays the same for its whole term.
+- Renewals: once a renewal line starts, the line it renews no longer counts.
+- Customers: internal and test accounts are not customers. Leave them out of
+  all metrics.
+- NRR for the 12 months ending on date D: take the accounts that had ARR above
+  zero 12 months before D. NRR is their total ARR on D divided by their total
+  ARR 12 months before D.
+- GRR: same as NRR, but each account's ARR on D is capped at its starting ARR,
+  so it reflects churn and downgrades but not growth.
