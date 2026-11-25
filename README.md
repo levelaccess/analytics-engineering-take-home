@@ -2,6 +2,8 @@
 
 Thanks for doing this exercise. It should take no more than 1.5 to 2 hours.
 
+To get the files, click **Code > Download ZIP** at the top of this page.
+
 ## Scenario
 
 Acme Accessibility sells accessibility software to businesses on annual
@@ -64,9 +66,8 @@ Send the following at least 24 hours before your demo:
 - your answers to Q1 to Q3
 - your note
 
-Share it as a private GitHub repository with the reviewers listed in your
-invite email, or send a zip file. Please don't fork this repository publicly
-or post your solution online.
+Email it as attachments or a single zip file to the recruiter who sent you
+this exercise. Please don't post your solution online.
 
 ## Demo (45 minutes)
 

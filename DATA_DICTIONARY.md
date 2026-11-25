@@ -34,7 +34,7 @@ time. An account's segment can change.
 | product_name | Product name |
 | product_family | Platform, Monitoring, Developer Tools or Services |
 | revenue_type | `recurring` (annual subscription) or `one_time` (fixed fee) |
-| unit | What the quantity counts: license, domain, seat, engagement, session |
+| unit | What the quantity counts: license, domain, seat or engagement |
 
 ## subscription_lines.csv
 One row per product on a contract.
