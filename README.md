@@ -1,11 +1,6 @@
 # Analytics Engineering Take-Home
 
-Thanks for doing this exercise. It should take 1.5 to 2 hours. Please don't
-spend more than 2 hours on it.
-
-It's fine if you don't finish everything. Work in this order: the model and Q1
-first, then Q2, then Q3. Whatever you get to, include the note and say what
-you would have done next.
+Thanks for doing this exercise. It should take no more than 1.5 to 2 hours.
 
 ## Scenario
 
