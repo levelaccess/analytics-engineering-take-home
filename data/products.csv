@@ -1,0 +1,7 @@
+product_id,product_name,product_family,revenue_type,unit
+P100,Platform Essentials,Platform,recurring,license
+P110,Platform Professional,Platform,recurring,license
+P120,Platform Enterprise,Platform,recurring,license
+P200,Continuous Monitoring,Monitoring,recurring,domain
+P300,Developer Seats,Developer Tools,Recurring,seat
+P400,Accessibility Audit,Services,one_time,engagement

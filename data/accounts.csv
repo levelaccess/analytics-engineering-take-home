@@ -1,0 +1,15 @@
+account_id,account_name,account_type,industry,billing_country,region,created_date
+A001,Blue Analytics Inc,Customer,Software,United States,NA,2024-12-10
+A002,Cedar Health LLC,Customer,Healthcare,United States,North America,2025-06-02
+A003,Summit Bank PLC,Customer,Financial Services,United Kingdom,EMEA,2025-03-11
+A004,Harbor University,Customer,Higher Education,Germany,emea,2025-08-20
+A005,Silver Retail Co,Customer,Retail,United States,na,2025-05-05
+A006,Pine Media Ltd,Customer,Media,Australia,APAC,2025-08-01
+A007,Granite Insurance SA,Customer,Financial Services,France,Europe,2024-11-15
+A008,River Logistics Inc,Customer,Logistics,United States,NA,2024-10-01
+A009,Oak Labs LLC,Customer,Software,United States,NA,2026-07-14
+A010,Swift Travel Group,Customer,Travel,Singapore,Asia Pacific,2026-05-30
+A011,Maple Energy Co,Customer,Energy,Canada,NA,2024-06-03
+A012,Acme Accessibility Demo Org,Internal,Software,United States,NA,2024-12-01
+A013,ZZ Test Account - Do Not Use,Customer,Software,United States,NA,2025-12-15
+A014,Golden Foods GmbH,Customer,Retail,Germany,EMEA,2026-02-15
